@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Calixto
+    last_name: López Santos
+    
+    # Define yourself in 4-5 words
+    motto: I like to program every day
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Junior Full Stack Developer, I have stack css, html, javascript, react, webpack... 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pbs.twimg.com/profile_images/839552613859352578/1HneAktL_400x400.jpg
+
+    # Contact Information
+    email: calixto.lopez.santos@gmail.com
+    phone:  #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/calixtolopezsantos/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: camillawilliams
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: medium
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom:
+        level:
+
+    # Interests or hobies
+    interests:
+      - item: swimming
+
+      - item: snorkel
+
+      - item: programming
+
+# Your previous education
+education:
+    - degree: Bachelor's in Telecom Engineering
+      university: UCAM
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fbriarcliffe-college%2F&psig=AOvVaw3Fbi1N8Uf--Mb-ENBbhMRj&ust=1593951117244000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCLru3Is-oCFQAAAAAdAAAAABAP
+      time: 2012 - 2016
+      details: |
+        # optional
+
+    - degree: Full Stack Development Bootcamp
+      university: 4 Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: |
+        Full Stack Software Developer.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team Leader
+      time: 2019 - 2021
+      company: El pozo alimentación, Murcia
+      # optional
+      company_logo: data:image/jpeg;base64,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PT29+bxT3KsQ9Pb35vFXCizZDysiooszcjyDUVoPVCXnsc9+r1KU4Fmzw+lIc5jp3jY6ch4B26owAztIJ6VNESyMOpJ8T4BbUF9RFkgEREAREQBERAEREAREQFO53KOsrKpkcNNUPihZYObC9zXSPsXkECxsAwdhUG9qeIehVX7O/wAF6bRYsWxqtK1jzK3JTEPQ6r9nf4LM3JjEB+h1X3D/AAXpRFFwTJrEyXAifsa+moYKSJhc4NAkLWkjS+FIdXF5Wr9j5/kpfuyrARaOJ2bCvPPKT3W0tuQhiHFWsV97Hz/JS9w+C4nDp/kZe4fBWGio9C0vefb8E/O5ciuzhs/yMvcPguBw2o+Rl7h8FY6LPoal7z7fgedy5FanC6j5GXuO8F89iqj5GXuO8FZaLPoin7z7fgedy5FaexFR8jL3D4J7E1HyMvcPgrLRPRFP3n2/A87lyKz9iaj5GXuO8F99iaj5GXuHwVlonoin7z7fgedy5FaexFR8jL3D4Lf5IYY9j3yysc0gaLQ5tjr1uOvqA7SpYito7Np0pqak3bnYhPEylG1giIuia4REQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAf//Z
+      details: |
+          - Individually Scheduling appointments with clients
+          - Submitting projects via web-portal and through the company’s auditing software 
+          - Contacting clients and communicating via phone, email, and face to face discussions 
+          - Examining commercial businesses’ payroll and tax records 
+          - Evaluating operational practices 
+         
+
+  
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Team Website
+    assignments:
+      - title: Website
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template"
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A simple postcard."
+
+      - title: Instagram Photofeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A mock version of a photofeed on Instagram"
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A replica of an instagram post."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript 
+        level: 80%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      
